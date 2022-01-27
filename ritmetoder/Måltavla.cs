@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace Ritmetoder
 {
-    public class Måltavla 
+    public class Måltavla
     {
         private int x = 0;
         private int y = 0;
@@ -17,14 +17,7 @@ namespace Ritmetoder
         {
             this.x = x;
             this.y = y;
-            if (radie<0)
-            {
-                this.radie = -radie;
-            }
-            else
-            {
-                this.radie = radie;
-            }
+            this.radie = radie < 0 ? -radie : radie;
         }
         #region Egenskaper
         public int X
@@ -43,14 +36,14 @@ namespace Ritmetoder
             set { if (value < 0) radie = -value; else radie = value; }
         }
         #endregion
-        public void Rita ( Graphics g)
+        public void Rita(Graphics g)
         {
             int r = radie;
-            g.FillEllipse(new SolidBrush(Color.White), x-r, y-r, r * 2, r * 2 );
+            g.FillEllipse(new SolidBrush(Color.White), x-r, y-r, r * 2, r * 2);
             r = (int)(radie*0.8);
-            g.FillEllipse(new SolidBrush(Color.Black), x-r, y-r, r * 2, r * 2);
+            g.FillEllipse(new SolidBrush(Color.LightGreen), x-r, y-r, r * 2, r * 2);
             r = (int)(radie * 0.6);
-            g.FillEllipse(new SolidBrush(Color.Blue), x - r, y - r, r * 2, r * 2);
+            g.FillEllipse(new SolidBrush(Color.FromArgb(0, 128, 255)), x - r, y - r, r * 2, r * 2);
             r = (int)(radie * 0.4);
             g.FillEllipse(new SolidBrush(Color.IndianRed), x - r, y - r, r * 2, r * 2);
             r = (int)(radie * 0.2);
