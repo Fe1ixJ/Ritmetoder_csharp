@@ -1,0 +1,11 @@
+C:\Users\feljoh041\source\repos\Ritmetoder\Ritmetoder\obj\Debug\Ritmetoder.csproj.AssemblyReference.cache
+C:\Users\feljoh041\source\repos\Ritmetoder\Ritmetoder\obj\Debug\Ritmetoder.csproj.SuggestedBindingRedirects.cache
+C:\Users\feljoh041\source\repos\Ritmetoder\Ritmetoder\obj\Debug\Ritmetoder.Form1.resources
+C:\Users\feljoh041\source\repos\Ritmetoder\Ritmetoder\obj\Debug\Ritmetoder.Properties.Resources.resources
+C:\Users\feljoh041\source\repos\Ritmetoder\Ritmetoder\obj\Debug\Ritmetoder.csproj.GenerateResource.cache
+C:\Users\feljoh041\source\repos\Ritmetoder\Ritmetoder\obj\Debug\Ritmetoder.csproj.CoreCompileInputs.cache
+C:\Users\feljoh041\source\repos\Ritmetoder\Ritmetoder\bin\Debug\Ritmetoder.exe.config
+C:\Users\feljoh041\source\repos\Ritmetoder\Ritmetoder\bin\Debug\Ritmetoder.exe
+C:\Users\feljoh041\source\repos\Ritmetoder\Ritmetoder\bin\Debug\Ritmetoder.pdb
+C:\Users\feljoh041\source\repos\Ritmetoder\Ritmetoder\obj\Debug\Ritmetoder.exe
+C:\Users\feljoh041\source\repos\Ritmetoder\Ritmetoder\obj\Debug\Ritmetoder.pdb
